@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+*{
+box-sizing: border-box;
+color:#000000;
+text-decoration: none;}
+body {
+    margin: 10px;
+    font-family: "Press Start 2P", system-ui;
+    background: url(images/fon.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #000000;
+}
+.header {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    gap: 1135px;
+    top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-block: 3px solid #000000;
+    writing-mode: horizontal-tb;
+    width: 1500px;
+
+}
+.header_logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:21px;
+    
+}
+.p{
+    text-shadow: 9px 5px 15px #000000;
+    text-align: center;
+    font-size: 16px;
+    
+}
+.header_menu{
+font-size: 14px;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 40px; /*! Размеры кнопки от текста*/
+    font-size: 25px;
+    background: #CB4CE0;
+    border: 1px solid #000000;
+    border-radius: 30px;
+    font-size: 25px;
+}
+.container{max-width: 900px;
+margin-left: auto;
+margin-right: auto;}
+.welcome {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+    width: 1050px;
+}
+.welcome_title{font-size: 50px; line-height: 1.2; letter-spacing: 15px;}
+.welcome_tex{ font-size: 14px; line-height: 2; width: 790px;}
+.course {
+    margin-left: auto;
+    margin-right: auto;
+    top: 250px;
+    background:rgba(35, 23, 79, 0.6);
+    width: 1500px;
+    height: 580px;
+    position: relative;
+}
+.course_list_img1{
+    width: 100px; 
+    height: 114px; 
+    
+    display: block;
+    margin: auto;
+    position: relative;
+    padding-top: 30px;}
+.course_list_img2{
+    width: 115px; 
+    height: 114px; 
+    object-fit: cover;
+    display: block;
+    margin: auto;
+    position: relative;
+    padding-top: 30px;}
+.course_list1{
+    width: 330px;
+    height: 270px;
+    background: #F9E2F5;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.course_list2{
+    width: 330px;
+    height: 270px;
+    background: #F9E2F5;
+    border-radius: 20px;
+    overflow: hidden;
+}
+course_list{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    position: relative;
+    padding-top: 100px;
+    gap: 100px;
+}
+.course_list_title{
+    font-size: 15px; 
+    position: relative; /*позиция относительно блока*/
+    text-align: center;
+    padding-top: 100px;
+}
+.vyazanie{
+    margin-left: auto;
+    margin-right: auto;
+    top: 250px;
+    background:rgba(249,226, 245, 0.8);
+    width: 1500px;
+    height: 770px;
+    position: relative;}
+.vyazanie_tit{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    position: relative;
+    padding-top: 90px;
+    gap: 50px;}
+.vyazanie_tex{
+    font-size: 32px; 
+    letter-spacing: 2rem; /*расстояние между буквами*/
+}
+.vyazanie_block1{
+    display: flex;
+    justify-content:space-between;
+    position: relative;
+    padding: 100px 200px;
+}
+.vyazanie_block_tex{font-size: 16px; width: 380px; height: 65px;}
+.vyazanie_block1_1{
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    gap: 40px;}
+.vyazanie_block2{
+    display: flex; 
+    justify-content:space-between; 
+    position: relative; 
+    padding: 100px 200px;}
+

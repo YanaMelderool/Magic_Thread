@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+* {
+    box-sizing: border-box;
+    color:#000000;
+    text-decoration: none;}
+body{
+    margin: 10px;
+    background: #F9E2F5;
+    font-family: "Press Start 2P", system-ui;
+}
+.header {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    gap: 1135px;
+    top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-block: 3px solid #000000;
+    writing-mode: horizontal-tb;
+    width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header_logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:21px;
+    
+}
+.p{
+    text-shadow: 9px 5px 15px #000000;
+    text-align: center;
+    font-size: 16px;
+    
+}
+.header_menu{
+font-size: 14px;
+}
+.container{
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto
+}
+.box_hook{
+  background-image: url(./images/b_hook.png);  
+  background-repeat: no-repeat;
+  height: 400px;
+  position: relative;
+  top: 60px;
+}
+.study{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.study_text{width: 280px;
+height: 105px;
+text-align: center;
+}
+.study_img{ display: block;
+    margin: auto;}
+.block_study{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    border-block: 3px solid #000000;
+    writing-mode: horizontal-tb;
+    height: 300px;
+}
+.block_study_text{text-align: center; 
+    width: 900px; 
+    position: relative;
+    margin: auto;
+    font-size: 16px;
+    line-height: 1;
+}
+.box_needle{
+    background-image: url(./images/b_needle.png);  
+    background-repeat: no-repeat;
+    height: 400px;
+    position: relative;
+    top: 60px;
+  }
+
+  .spravka_head{
+    width: 300px;
+    height: 95px;
+    background: #C092BB;
+    border-radius: 40px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+  }
+  .h1{
+    font-size: 34px;
+    text-align: center;
+    position: relative;
+    top: 30px;
+}
+.spravka_text{
+    width: 900px;
+    height: 600px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background: #C092BB;
+    border-radius: 40px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+.spravka_context{
+    font-size: 20px;
+    position: relative;
+    margin: auto;
+    text-align: center;
+}
+.name_study{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-top: 80px;
+}
+.name_text{
+    font-size: 20px;
+}
